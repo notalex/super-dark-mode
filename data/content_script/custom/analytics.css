@@ -1,0 +1,24 @@
+
+body::-webkit-scrollbar {
+  width: 4px;
+  height: 5px;
+  background-color: black;
+}
+body::-webkit-scrollbar-thumb {
+    background: gray; 
+}
+
+body{filter:invert(100%); background:black !important;}
+img, svg, canvas, video{filter:invert(100%);}
+
+#ID-footerPanel div{background:white !important;}
+ga-data-table.ng-scope.ng-isolate-scope svg {
+    filter: invert(0%);
+}
+#ID-contextOverviewPanel #ID-overtimePanel #ID-minuteChartContainer ._GAa-_GAfg._GAa-_GAh-_GAcf-_GAq{
+    filter: invert(100%) hue-rotate(180deg);
+}
+#ID-contextOverviewPanel #ID-overtimePanel #ID-minuteChartContainer ._GAa-_GAfg._GAa-_GAh-_GAcf-_GAq ._GAfBb{filter:invert(100%);}
+#ID-overviewPanelGeoComponent div div div svg, #ID-locationPanelGeoComponent div div div svg{
+	filter: invert(100%) hue-rotate(210deg) saturate(150%) brightness(200%);
+}

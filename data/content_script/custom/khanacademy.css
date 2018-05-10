@@ -1,0 +1,14 @@
+
+body::-webkit-scrollbar {
+  width: 4px;
+  height: 5px;
+  background-color: black;
+}
+body::-webkit-scrollbar-thumb {
+    background: gray; 
+}
+body{filter:invert(100%); background:black !important;}
+img, button{filter:invert(100%);}
+svg{filter:invert(0%) !important;}
+header, footer{filter:invert(100%);}
+a div.icon_rwd12m, div.wrapper_8unojr{filter:invert(100%);}

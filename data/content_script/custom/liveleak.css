@@ -1,0 +1,10 @@
+body{filter:invert(100%);overflow-x:hidden !important;}
+img, .faux_player, svg{filter:invert(100%) !important;}
+#main, #main .player_area.js-player_area.js-player-fullscreen, #main .player_outro_area .outro{background:white;}
+a.topnav_desktop_logo, div.captions, #main .video-wrapper{filter:invert(100%);}
+video, #footer, #neado, span.thumbBlock{filter:invert(100%) !important;}
+.player_container, #topnav_desktop_upload_button, button{filter:invert(100%) !important;}
+.topnav_menu_search_submit.topnav_icon_search_b{
+	background: black;
+    border: solid 1px #3e352e !important;
+}

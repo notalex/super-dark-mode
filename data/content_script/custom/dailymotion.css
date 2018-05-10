@@ -1,0 +1,7 @@
+body{filter:invert(100%);overflow-x:hidden !important;}
+img, .faux_player, svg{filter:invert(100%) !important;}
+.Player__player___wX05I.Player.Draggable.react-draggable.react-draggable-dragged, .Player__player___wX05I.Player.NonDraggable.react-draggable{filter:invert(100%) !important;}
+footer.Footer__footer___2cps3, div.VideoQueue__videoWrapper___1zW3S{background:white !important;}
+span.thumbBlock, div.HorizontalArrowSlider__child___1uC-2.HorizontalWatchingQueue__itemWrapper___9A2N3, a.Header__logo___2oY2M, div.Header__signin___1Q5Nb, a.Player__miniplayerLink___AGFE5, div.Player__player___wX05I.Player.Draggable.react-draggable{filter:invert(100%) !important;}
+div.HorizontalWatchingQueue__watchingQueue___2ood7 a.WatchingQueueItem__item___2-hIW{filter:invert(100%);}
+iframe{opacity:0;}

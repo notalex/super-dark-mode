@@ -1,0 +1,84 @@
+body::-webkit-scrollbar {
+  width: 4px;
+  height: 5px;
+  background-color: black;
+}
+body::-webkit-scrollbar-thumb {
+    background: gray; 
+}
+* {
+  border-color: #252525 !important
+}
+
+html, body, body>div {
+  background-color: #000 !important
+}
+
+div[style*="transparent"] *:not(img) {
+  opacity: 0 !important
+}
+
+@-moz-document url(about:blank) {
+  html {
+    background-color: #000
+  }
+}
+
+browser[type="content-primary"] {
+  background-color: #000 !important
+}
+
+body *:not([background]):not([background-image]):not(input):not(video):not(canvas):not(a):not(svg):not(span):not(ul):not(strong){
+  background-color: #000 !important
+}
+
+body * {
+  text-shadow: none !important;
+  color: rgba(255, 255, 255, 1) !important;
+}
+
+body a, body a:link, body a *:not(img), body a:link *:not(img) {
+  /*color: #437899 !important;*/
+  color:orange !important;
+  /*background-color: rgba(60, 60, 60, 0) !important;*/
+}
+
+body a:hover, body a:active, body a:hover *:not(img), body a:active *:not(img) {
+  color: #2476b8 !important;
+  background-image: none !important;
+  /*background-color: rgba(60, 60, 60, 0) !important;*/
+}
+
+body a:visited, body a:visited *:not(img) {
+  color: orange !important;
+  background-image: none !important;
+  /*background-color: rgba(60, 60, 60, 0) !important;*/
+}
+iframe[src*="youtube.com/embed"]{
+	filter:invert(100%) !important;
+}
+
+body input, body textarea {
+  color: #f0f0f0 !important;
+  border-color: #333 !important;
+  background-image: none !important;
+  /*background-color: #222 !important;*/
+  background-color:transparent !important;
+}
+.c-video-embed, .LinkExpander.direct.expanded.type-ratio .LinkExpander_Ratio{filter:invert(100%) !important;}
+.navTabs{opacity:.5;}
+.gsfi#lst-ib{border:1px solid !important;border-radius:2px;}
+#js-defy-player-iframe{filter:invert(100%) !important;}
+.c-entry-box--compact.c-entry-box--compact--pq.c-entry-box--compact--hero, .c-entry-box--compact.c-entry-box--compact--pq.c-entry-box--compact--hero *{background:#2196f300 !important;}
+.l-root.l-reskin .l-header .chorus-emc__content .c-masthead.c-masthead--centered .c-masthead__main *{background:transparent !important;}
+a, a *, a:hover, a *:hover{background-color:transparent !important;}
+#header-bottom-left, #header-bottom-left *, .footer-parent .footer.rounded, .footer-parent .footer.rounded *, p.bottommenu{ background-color: rgba(0,0,0,0) !important;}
+p.bottommenu{padding:2px;}
+.sidecontentbox ul.content{background:black !important;}
+.drop-choices.srdrop.inuse{background-color:gray !important;background:gray !important;}
+p.title a.title{background: none !important; filter:invert(40%) brightness(200%) !important;}
+p.title span.linkflairlabel, span.rank{background: rgba(105, 105, 100, .5) !important;}
+.link{color:orange !important;}
+#header a[href*="LifeProTips"]{filter:invert(100%);}
+div.thing.link {background:black !important;}
+span.nextprev, span.flair.flair-ocmaker{color:blue !important;}

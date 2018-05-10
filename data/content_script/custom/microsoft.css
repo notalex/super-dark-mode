@@ -1,0 +1,14 @@
+body{filter:invert(100%); background:black !important;}
+img, svg, canvas, video, #video-section-player.video-container, #coreui-sitebanner-s2vf3p3{filter:invert(100%);}
+
+body::-webkit-scrollbar {
+  width: 4px;
+  height: 5px;
+  background-color: black;
+}
+body::-webkit-scrollbar-thumb {
+    background: gray; 
+}
+section, footer.section-footer, div.section.section-palette06.text-center, div.free-image-overlay.text-center{background-color:white !important;color:black !important;background:white !important;}
+div.c-dialog.f-lightbox.modal.f-hide, header.azure-header.navigation, div.section.section-slate01.section-size3.section-azure-for-all.section-anonymous, div.owl-carousel.carousel-homepage-case-studies.text-center.owl-loaded{filter:invert(100%) !important;}
+div#youtubeplayer2{filter:invert(100%);}

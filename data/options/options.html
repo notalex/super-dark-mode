@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Dark Mode</title>
+    <link rel="stylesheet" type="text/css" href="options.css">
+  </head>
+  <body>
+    <div class="content">
+      <table class="wrapper">
+        <tr>
+		  <td>
+            <table class="options">
+              <tr><td><label title="If you uncheck bellow options, the default dark mode will be used." class="ex" style="color:#8bc34a; font-weight:bold;font-size:9pt;">1. Enable specialised dark mode for:</label></td></tr>
+			  <tr><td><label class="hl"><input type="checkbox" id="youtube"></input>Dark Mode for &nbsp; <b style='color:yellow;'>YouTube</b></label></td></tr>
+			  <tr><td><label class="hl"><input type="checkbox" id="facebook"></input>Dark Mode for &nbsp; <b style='color:yellow;'> Facebook</b></label></td></tr>
+			  <tr><td><label class="hl"><input type="checkbox" id="docs"></input>Dark Mode for Google Docs</label></td></tr>
+              <tr><td><label class="hl"><input type="checkbox" id="drive"></input>Dark Mode for Google Drive</label></td></tr>
+              <tr><td><label class="hl"><input type="checkbox" id="sites"></input>Dark Mode for Google Sites</label></td></tr>
+              <tr><td><label class="hl"><input type="checkbox" id="maps"></input>Dark Mode for Google Maps</label></td></tr>
+              <tr><td><label class="hl"><input type="checkbox" id="inbox"></input>Dark Mode for Google Inbox</label></td></tr>
+              <tr><td><label class="hl"><input type="checkbox" id="ebay"></input>Dark Mode for Ebay</label></td></tr>
+              <tr><td><label class="hl"><input type="checkbox" id="bing"></input>Dark Mode for Bing</label></td></tr>
+              <tr><td><label class="hl"><input type="checkbox" id="gmail"></input>Dark Mode for Gmail</label></td></tr>
+              <tr><td><label class="hl"><input type="checkbox" id="twitter"></input>Dark Mode for &nbsp; <b style='color:yellow;'> Twitter</b></label></td></tr>
+              <tr><td><label class="hl"><input type="checkbox" id="reddit"></input>Dark Mode for Reddit</label></td></tr>
+              <tr><td><label class="hl"><input type="checkbox" id="yahoo"></input>Dark Mode for Yahoo</label></td></tr>
+              <tr><td><label class="hl"><input type="checkbox" id="twitch"></input>Dark Mode for Twitch</label></td></tr>
+              <tr><td><label class="hl"><input type="checkbox" id="github"></input>Dark Mode for GitHub</label></td></tr>
+              <tr><td><label class="hl"><input type="checkbox" id="tumblr"></input>Dark Mode for &nbsp; <b style='color:yellow;'> Tumblr</b></label></td></tr>
+              <tr><td><label class="hl"><input type="checkbox" id="amazon"></input>Dark Mode for Amazon</label></td></tr>
+              <tr><td><label class="hl"><input type="checkbox" id="dropbox"></input>Dark Mode for Dropbox</label></td></tr>
+              <tr><td><label class="hl"><input type="checkbox" id="wikipedia"></input>Dark Mode for Wikipedia</label></td></tr>
+              <tr><td><label class="hl"><input type="checkbox" id="duckduckgo"></input>Dark Mode for DuckDuckGo</label></td></tr>
+              <tr><td><label class="hl"><input type="checkbox" id="stackoverflow"></input>Dark Mode for Stack Overflow</label></td></tr>
+              <tr><td><label class="hl"><input type="checkbox" id="instagram"></input>Dark Mode for Instagram</label></td></tr>
+			  <tr><td><label class="hl"><input type="checkbox" id="vimeo"></input>Dark Mode for Vimeo</label></td></tr>
+			  <tr><td><label class="hl"><input type="checkbox" id="liveleak"></input>Dark Mode for LiveLeak</label></td></tr>
+			  <tr><td><label class="hl"><input type="checkbox" id="dailymotion"></input>Dark Mode for DailyMotion.com</label></td></tr>
+			  <tr><td><label class="hl"><input type="checkbox" id="nytimes"></input>Dark Mode for NYTimes.com</label></td></tr>
+			  <tr><td><label class="hl"><input type="checkbox" id="aljazeera"></input>Dark Mode for Aljazeera.com</label></td></tr>
+			  <tr><td><label class="hl"><input type="checkbox" id="microsoft"></input>Dark Mode for Microsoft.com</label></td></tr>
+			  <tr><td><label class="hl"><input type="checkbox" id="analytics"></input>Dark Mode for Google Analytics</label></td></tr>
+			  <tr><td><label class="hl"><input type="checkbox" id="chicagotribune"></input>Dark Mode for Chicagotribune</label></td></tr>
+			  <tr><td><label class="hl"><input type="checkbox" id="newsday"></input>Dark Mode for Newsday</label></td></tr>
+			  <tr><td><label class="hl"><input type="checkbox" id="khanacademy"></input>Dark Mode for Khanacademy</label></td></tr>
+			  <tr><td><label class="hl"><input type="checkbox" id="schoology"></input>Dark Mode for Schoology</label></td></tr>
+			  <tr><td><label class="hl"><input type="checkbox" id="pinterest"></input>Dark Mode for Pinterest</label></td></tr>
+              <tr class="trhidden"><td><label><input type="checkbox" class="hidden"></input></label></td></tr>
+              <tr class="trhidden"><td><label><input type="checkbox" class="hidden"></input></label></td></tr>
+              <tr class="trhidden"><td><label><input type="checkbox" class="hidden"></input></label></td></tr>
+              <tr class="trhidden"><td><label><input type="checkbox" class="hidden"></input></label></td></tr>
+            </table>
+          </td>
+          <td>
+            <table class="options">
+              <tr><td><label class="ex2" style="color:#8bc34a; font-weight:bold;font-size:9pt;">2. Enable dark mode for ALL sites &nbsp; <span id="outerdark_1"><input type="checkbox" id="dark_1"></input><span></label></td></tr>
+			  <tr><td>
+				<table class="whitelist">
+				<tr><td colspan=2 class="comment" style='padding-left:0px !important;text-align:center;'><label title="Force exclude dark mode on the sites are listed in the whitelist box." class="ex" style="color:#8bc34a; font-weight:bold;font-size:9pt;">3. Whitelist:</label> Use comma to separate sites domains</td></tr>
+				<tr class="highlight">
+				  <td><textarea type="text" id="whitelist" placeholder="For example: google.com, yahoo.com, bing.com, ..."></textarea></td>
+				</tr>
+			  </table>
+			  </td></tr>
+			  <tr class="trhidden"><td><label><input type="checkbox" class="hidden"></input></label></td></tr>
+              <tr class="trhidden"><td><label><input type="checkbox" class="hidden"></input></label></td></tr>
+              <tr class="trhidden"><td><label><input type="checkbox" class="hidden"></input></label></td></tr>
+            </table>
+          </td>
+        </tr>
+      </table>
+    </div>
+	<div id="help"><a href="https://sites.google.com/view/crx/sdm">Help</a></div>
+    <script src="options.js"></script>
+  </body>
+</html>

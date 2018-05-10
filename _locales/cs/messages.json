@@ -1,0 +1,11 @@
+{
+    "name": {
+        "message": "Super Dark Mode"
+    },
+    "short_name": {
+        "message": "Night Mode"
+    },
+    "description": {
+        "message": "Přepněte web, který chcete přejít do tmavého režimu. Tmavý režim pomůže zařízením šetřit baterii a snížit napětí na očích."
+    }
+}

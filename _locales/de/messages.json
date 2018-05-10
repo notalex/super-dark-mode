@@ -1,0 +1,11 @@
+{
+    "name": {
+        "message": "Super Dark Mode"
+    },
+    "short_name": {
+        "message": "Night Mode"
+    },
+    "description": {
+        "message": "Wechseln Sie die Website, die Sie in den dunklen Modus möchten. Der Dunkelmodus hilft den Geräten dabei, Batterie zu sparen und die Augenbelastung zu reduzieren.."
+    }
+}

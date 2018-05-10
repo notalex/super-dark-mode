@@ -1,0 +1,56 @@
+ytd-app, #content, #content #page-manager, #content #page-manager ytd-watch.style-scope.ytd-page-manager, #content #page-manager  ytd-browse.style-scope.ytd-page-manager, app-toolbar #tabs-container #tabs-inner-container, #channel-container #channel-header, ytd-multi-page-menu-renderer{
+	background:black !important;
+	color:#c9c7c9 !important;
+}
+ytd-multi-page-menu-renderer{border:1px solid gray;}
+#content #page-manager ytd-watch.style-scope.ytd-page-manager *{
+	color:#c9c7c9 !important
+}
+body *, a:link, a:visited{
+	color:#c9c7c9 !important
+}
+a:hover{
+	color:orange !important;
+}
+#masthead-container{
+	background-color: transparent !important;
+	background:none !important;
+}
+
+ytd-masthead#masthead{
+/*--yt-swatch-primary:rgb(35,35,35) !important; 
+--yt-swatch-primary-darker:rgb(32,32,32) !important; 
+--yt-swatch-text:rgb(255,255,255) !important; 
+--yt-swatch-important-text:rgb(255,255,255) !important; 
+--yt-swatch-input-text:rgba(255,255,255,1) !important; 
+--yt-swatch-textbox-bg:rgba(19,19,19,1) !important; 
+--yt-swatch-logo-override:rgb(255,255,255) !important; 
+--yt-swatch-icon-color:rgba(136,136,136,1) !important;
+border-bottom:1px solid #1b1b1b;*/
+background:linear-gradient(black, black);
+}
+ytd-searchbox#search *{
+	background:transparent !important;
+}
+ytd-searchbox#search input{
+	color:white !important;
+}
+#guide #guide-content{
+	background:black !important;
+	color:white;
+}
+#guide #guide-content *{
+	color:white !important;
+}
+#guide #guide-content{
+	margin-right:-18px !important;
+}
+#right-arrow ytd-button-renderer, #left-arrow ytd-button-renderer{background:gray !important;}
+paper-button{background:#9c2c00 !important;}
+ytd-comments#comments paper-button, #meta paper-button{background:none !important;}
+ytd-comments#comments paper-button *, #meta paper-button *{color:#9c2c00 !important;}
+#logo{filter:grayscale(100%) contrast(70%);}
+#guide-button #button{filter:contrast(10%);}
+#contents.ytd-section-list-renderer > .ytd-section-list-renderer:not(:last-child):not(ytd-page-introduction-renderer), #sections.ytd-guide-renderer > .ytd-guide-renderer:not(:last-child){
+	border-bottom: 1px solid rgba(255,255,255,.1) !important;
+}

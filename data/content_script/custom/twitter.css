@@ -1,0 +1,37 @@
+body::-webkit-scrollbar {
+  width: 4px;
+  height: 5px;
+  background-color: black;
+}
+body::-webkit-scrollbar-thumb {
+    background: gray; 
+}
+
+html{filter:invert(100%);}
+body, html{background:black;}
+img, video, svg, div.DirectMessage-message.with-text.dm-message.u-chromeOverflowFix{filter:invert(100%);}
+strong{color:#8BC34A !important;}
+#page-outer,#page-container{background:white;}
+div.DashboardProfileCard.module a.DashboardProfileCard-bg.u-bgUserColor.u-block{filter:invert(100%);}
+iframe{filter:invert(80%) saturate(190%) brightness(90%);}
+div#Tweetstorm-dialog.TweetstormDialog.modal-container, div#dm_dialog.DMDialog.modal-container, div#global-tweet-dialog.modal-container.tweet-showing, div#retweet-tweet-dialog.RetweetDialog.modal-container.tweet-showing{background: #ffffffc4 !important;}
+div#Tweetstorm-dialog.TweetstormDialog.modal-container *, div#dm_dialog.DMDialog.modal-container *, div#global-tweet-dialog.modal-container.tweet-showing *, div#retweet-tweet-dialog.RetweetDialog.modal-container.tweet-showing *{color:#007ab2;}
+button, a{filter:invert(100%);}
+a img{filter:invert(0%);}
+div.modal-content.TweetstormDialog-content div{background:#cacaca !important;}
+div.DashboardProfileCard-name.u-textTruncate{color:yellow !important;}
+div.DMActivity.DMInbox.js-ariaDocument.u-chromeOverflowFix.DMActivity--open img{filter:invert(100%) !important;}
+
+.DMAvatar-image{filter:invert(100%);}
+.DMUpdateAvatar-avatar .DMAvatar-image{filter:invert(0%);}
+div.DirectMessage-message.with-text.dm-message.u-chromeOverflowFix, div.DirectMessage-message.with-text.dm-message.u-chromeOverflowFix *, div.DirectMessage-message.with-text.dm-message.u-chromeOverflowFix *{color:#673AB7 !important;}
+div.DirectMessage-message.with-text.dm-message.u-chromeOverflowFix a:link, div.DirectMessage-message.with-text.dm-message.u-chromeOverflowFix:visited{filter:invert(30%);}
+div.ProfileCanopy-header{
+	background:linear-gradient(90deg,pink, white) !important;
+	/*filter:invert(100%);*/
+}
+div#profile-hover-container div.ProfileCard-bg{filter:invert(100%);}
+div.gallery-overlay{background:white !important;}
+div.Gallery.with-tweet div.Gallery-content div.Gallery-media{background: #141d26 !important;}
+div.Gallery.with-tweet div.Gallery-content div.GalleryTweet.enable-fade div.tweet.js-stream-tweet.js-actionable-tweet.js-profile-popup-actionable.dismissible-content.original-tweet.js-original-tweet.has-cards.Tweet--invertedColors.has-content div.content div.stream-item-footer{background: #009688 !important;}
+

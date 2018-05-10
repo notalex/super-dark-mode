@@ -1,0 +1,79 @@
+
+body::-webkit-scrollbar {
+  width: 4px;
+  height: 5px;
+  background-color: black;
+}
+body::-webkit-scrollbar-thumb {
+    background: gray; 
+}
+* {
+  border-color: #252525 !important
+}
+
+html, body, body>div {
+  background-color: #000 !important
+}
+
+div[style*="transparent"] *:not(img) {
+  opacity: 0 !important
+}
+
+@-moz-document url(about:blank) {
+  html {
+    background-color: #000
+  }
+}
+
+browser[type="content-primary"] {
+  background-color: #000 !important
+}
+
+body *:not([background]):not(input):not(video):not(figure):not(canvas):not(p):not(span):not(h1) {
+  background-color: #000 !important
+}
+
+body * {
+  text-shadow: none !important;
+  color: rgba(255, 255, 255, 1) !important;
+}
+
+body a, body a:link, body a *:not(img), body a:link *:not(img) {
+  color: white !important;
+  /*background-color: rgba(60, 60, 60, 0) !important;*/
+}
+
+body a:hover, body a:active, body a:hover *:not(img), body a:active *:not(img) {
+  color: #2476b8 !important;
+  background-image: none !important;
+  /*background-color: rgba(60, 60, 60, 0) !important;*/
+}
+
+body a:visited, body a:visited *:not(img) {
+  color: #437899 !important;
+  background-image: none !important;
+  /*background-color: rgba(60, 60, 60, 0) !important;*/
+}
+
+body input, body textarea {
+  color: #f0f0f0 !important;
+  border-color: #333 !important;
+  background-image: none !important;
+  /*background-color: #222 !important;*/
+  background-color:transparent !important;
+}
+.c-video-embed, .LinkExpander.direct.expanded.type-ratio .LinkExpander_Ratio{filter:invert(100%) !important;}
+.navTabs{opacity:.5;}
+.gsfi#lst-ib{border:1px solid !important;border-radius:2px;}
+#js-defy-player-iframe{filter:invert(100%) !important;}
+
+#nytint-hp-watching ul.portal-posts-list li .post-content p{color:white !important}
+#nytint-hp-watching ul.portal-posts-list li .post-style-standard a{background:transparent !important;}
+a{background:transparent !important;}
+#video-playlist-container ul li .wide-thumb .media-action-overlay{background:transparent !important;}
+h2.branding a{filter: brightness(500%) !important;}
+figure.promo.media.video.embedded{background-color:transparent !important;}
+.vhs-player-cover-background.vhs-homepage-cover.vhs-updated-homepage-cover, .vhs-media-action-overlay.vhs-homepage-cover.vhs-updated-homepage-cover, .vhs-media-action-overlay.vhs-homepage-cover.vhs-updated-homepage-cover *, .vhs-player-cover-background.vhs-article-cover, .vhs-media-action-overlay.vhs-article-cover, .vhs-media-action-overlay.vhs-article-cover *{background:none !important;}
+#g-promo-master-box .g-text {
+    background: none !important;
+}

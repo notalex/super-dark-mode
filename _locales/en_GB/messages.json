@@ -1,0 +1,11 @@
+{
+    "name": {
+        "message": "Super Dark Mode"
+    },
+    "short_name": {
+        "message": "Night Mode"
+    },
+    "description": {
+        "message": "Switch website you want to dark mode. Dark mode will help devices save battery and reduces strain on your eyes."
+    }
+}

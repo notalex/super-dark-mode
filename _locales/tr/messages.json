@@ -1,0 +1,11 @@
+{
+    "name": {
+        "message": "Super Dark Mode"
+    },
+    "short_name": {
+        "message": "Night Mode"
+    },
+    "description": {
+        "message": "Karanlık moda geçmek istediğiniz web sitesini değiştirin. Koyu mod, cihazların pil tasarrufu yapmasına ve gözlerdeki gerginliğin azalmasına yardımcı olur."
+    }
+}
