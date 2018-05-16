@@ -147,7 +147,7 @@ button, blockquote {
   background-color: transparent !important;
 }
 
-/* Hide Alias, Url previews,  */
-.hc-msg-yellow, .atlascard {
+/* Hide Alias, Url, attachment previews,  */
+.hc-msg-yellow, .atlascard, .file-preview-wrapper {
   display: none !important;
 }
