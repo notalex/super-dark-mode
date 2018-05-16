@@ -24,6 +24,7 @@ var custom = {
   "twitch": ".twitch.tv",
   "github": "github.com",
   "hipchat": ".hipchat.com",
+  "google": "www.google.",
   "docs": "docs.google.",
   "bing": "www.bing.com",
   "amazon": "www.amazon.",
