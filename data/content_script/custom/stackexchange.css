@@ -229,9 +229,9 @@ button span, input[type="submit"] span, input[type="button"] span {color: #05030
 /* overrides */
 
 .container {
-  background: #e0e9ec;
+  background: #e0e9ec !important;
 }
 
 .top-bar {
-  background: none;
+  background-color: transparent !important;
 }
